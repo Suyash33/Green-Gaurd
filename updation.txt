@@ -1,0 +1,4 @@
+Home Page-> Image proper fit  Done
+AI Engine -> Emoji,alignment  Done 
+Suppliments -> Fix image and Buy links  Done
+ContactUs -> Attach to the Database 
