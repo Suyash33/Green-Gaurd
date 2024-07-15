@@ -2,15 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "Green-Guard/Flask Deployed App/app.py",
+      "src": "Flask Deployed App/app.py",
       "use": "@vercel/python"
     },
     {
-      "src": "Green-Guard/Flask Deployed App/static/**/*",
+      "src": "Flask Deployed App/static/**/*",
       "use": "@vercel/static"
     },
     {
-      "src": "Green-Guard/Flask Deployed App/templates/**/*",
+      "src": "Flask Deployed App/templates/**/*",
       "use": "@vercel/static"
     },
     {
@@ -21,10 +21,10 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "Green-Guard/Flask Deployed App/app.py"
+      "dest": "Flask Deployed App/app.py"
     }
   ],
   "env": {
-    "PYTHON_VERSION": "3.8"  // Adjust Python version as per compatibility
+    "PYTHON_VERSION": "3.8"
   }
 }
