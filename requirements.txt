@@ -1,4 +1,4 @@
-pip --upgrade pip
+--upgrade pip
 click==7.1.2
 Flask==1.1.2
 gunicorn==20.1.0
@@ -21,9 +21,11 @@ python==3.12
 
 streamlit==0.88.0       
 numpy==1.20.2           
-pandas==1.2.4           
-torch==1.8.1+cpu        
+pandas==1.2.4                
 torchvision==0.9.1+cpu  
+
+torch==1.8.1+cpu; python_version < '3.13'
+
 
 
 
