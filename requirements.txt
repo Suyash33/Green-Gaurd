@@ -1,4 +1,5 @@
-﻿click==7.1.2
+pip --upgrade pip
+click==7.1.2
 Flask==1.1.2
 gunicorn==20.1.0
 itsdangerous==1.1.0
@@ -17,3 +18,14 @@ torchvision==0.9.1+cpu
 typing-extensions==3.7.4.3
 Werkzeug==1.0.1
 python==3.12
+
+streamlit==0.88.0       
+numpy==1.20.2           
+pandas==1.2.4           
+torch==1.8.1+cpu        
+torchvision==0.9.1+cpu  
+
+
+
+
+
